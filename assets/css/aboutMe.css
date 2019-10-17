@@ -4,17 +4,33 @@ section {
     margin: 30px auto 30px auto;
     width: 960px;
     padding: 20px;
-    border: 1px solid rgb(215, 215, 215);
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 img {
     width: 160px;
     height: 160px;
-    border-radius: 8% 8% 8% 8%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    
 }
 
 hr {
     margin-bottom: 15px;
+}
+
+.quotes {
+    padding-bottom: 15px;
+}
+.quoteMarks {
+    font-size: large;
+    font-style: monospace;
+}
+.qName {
+    color: #888;
+    font-weight: bold;
+    font-size: small;
+    float: right;
 }
 
 #profilePic {
@@ -28,3 +44,4 @@ hr {
     margin: 10px 0 20px 0px;
     color: steelblue;
 }
+
