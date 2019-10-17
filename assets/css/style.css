@@ -1,0 +1,23 @@
+* {box-sizing: border-box;}
+
+h1, h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1 {
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+p, nav {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    line-height: 1.8em;
+}
+
+.content {
+    background-color: rgb(230, 230, 230);
+    display: inline-block;
+    width: 100%;
+}

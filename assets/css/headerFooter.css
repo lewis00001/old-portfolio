@@ -1,0 +1,61 @@
+nav {
+    display: block;
+    float: right;
+}
+
+nav > div {
+    display: block;
+    float: right;
+    margin-left: 18px;
+    padding: 25px 5px 0px 5px;
+    color: #666;
+}
+
+header {
+    border-bottom: 1px solid #999;
+}
+
+footer {
+    background-color: #666;
+    border-top: 6px solid steelblue;
+    padding: 20px 0px 10px 0px;
+    text-align: center;
+    font-size: 0.8em;
+    color: white;
+}
+
+.clearfix:after {
+    content: " ";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+ }
+
+.headerContent {
+    display: block;
+    margin: auto;
+    width: 960px;
+
+}
+
+#nameBlock {
+    background-color: steelblue;
+    display: block;
+    float: left;
+    padding: 25px;
+    color: white;
+}
+
+#about {
+    display: block;
+    float: left;
+}
+#portfolio {
+    display: block;
+}
+
+#contact {
+    display: block;
+    float: right;
+}

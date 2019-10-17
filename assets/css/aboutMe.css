@@ -1,0 +1,30 @@
+section {
+    background-color: white;
+    display: block;
+    margin: 30px auto 30px auto;
+    width: 960px;
+    padding: 20px;
+    border: 1px solid rgb(215, 215, 215);
+}
+
+img {
+    width: 160px;
+    height: 160px;
+    border-radius: 8% 8% 8% 8%;
+}
+
+hr {
+    margin-bottom: 15px;
+}
+
+#profilePic {
+    display: block;
+    float: left;
+    margin: 5px 15px 10px 0px;
+    object-fit: contain;
+}
+
+#aboutMe {
+    margin: 10px 0 20px 0px;
+    color: steelblue;
+}
