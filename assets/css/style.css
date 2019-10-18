@@ -1,5 +1,15 @@
 * {box-sizing: border-box;}
 
+section {
+    background-color: white;
+    display: block;
+    margin: 30px auto 30px auto;
+    width: 960px;
+    padding: 20px;
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
 h1, h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -20,4 +30,10 @@ p {
     background-color: rgb(230, 230, 230);
     display: inline-block;
     width: 100%;
+}
+
+#pageTitle {
+    margin: 10px 0 20px 0px;
+    color: steelblue;
+    float: left;
 }
