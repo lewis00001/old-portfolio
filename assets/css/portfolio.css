@@ -18,6 +18,9 @@
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
 }
+.imgBanner:hover {
+    background-color: rgb(53, 100, 138);
+}
 
 #project_1 {
     background-image: url("../images/p1.jpeg");
@@ -35,5 +38,8 @@
     background-image: url("../images/p7.jpeg");
 }
 #project_6 {
+    background-image: url("../images/p6.jpeg");
+}
+#project_7 {
     background-image: url("../images/p8.jpeg");
 }
