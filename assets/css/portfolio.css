@@ -1,0 +1,39 @@
+.p_link {
+    position: relative;
+    width: 200px;
+    height: 180px;
+    float: left;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+
+.imgBanner {
+    position: absolute;
+    bottom: 15px;
+    width: 100%;
+    background-color: steelblue;
+    font-size: large;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#project_1 {
+    background-image: url("../images/p1.jpeg");
+}
+#project_2 {
+    background-image: url("../images/p2.jpeg");
+}
+#project_3 {
+    background-image: url("../images/p3.jpeg");
+}
+#project_4 {
+    background-image: url("../images/p4.jpeg");
+}
+#project_5 {
+    background-image: url("../images/p7.jpeg");
+}
+#project_6 {
+    background-image: url("../images/p8.jpeg");
+}
