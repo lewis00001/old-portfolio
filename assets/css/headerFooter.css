@@ -1,3 +1,8 @@
+a {
+    text-decoration: none;
+    color: #666;
+}
+
 nav {
     display: block;
     float: right;
@@ -24,14 +29,6 @@ footer {
     color: white;
 }
 
-.clearfix:after {
-    content: " ";
-    visibility: hidden;
-    display: block;
-    height: 0;
-    clear: both;
- }
-
 .headerContent {
     display: block;
     margin: auto;
@@ -47,15 +44,9 @@ footer {
     color: white;
 }
 
-#about {
+#about, 
+#portfolio,
+#contact    {
     display: block;
     float: left;
-}
-#portfolio {
-    display: block;
-}
-
-#contact {
-    display: block;
-    float: right;
 }

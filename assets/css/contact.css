@@ -2,3 +2,28 @@ hr {
     margin-bottom: 15px;
     width: 100%;
 }
+
+.socialLogo > a > img {
+    width: 50px;
+    display: inline-block;
+    float: left;
+    margin: 0 10px 0 10px;
+}
+
+input, 
+textarea {
+    width: 100%;
+    margin: 10px 0 10px 0;
+    padding: 5px;
+} 
+
+textarea {
+    height: 120px;
+}
+
+#submitButton {
+    width: 80px;
+    font-weight: bold;
+    background-color: steelblue;
+    color: white;
+}
