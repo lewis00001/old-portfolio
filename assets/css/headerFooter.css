@@ -44,6 +44,10 @@ footer {
     color: white;
 }
 
+#nameBlock > a {
+    color: white;
+}
+
 #about, 
 #portfolio,
 #contact    {
