@@ -3,13 +3,6 @@ hr {
     width: 100%;
 }
 
-.socialLogo > a > img {
-    width: 50px;
-    display: inline-block;
-    float: left;
-    margin: 0 10px 0 10px;
-}
-
 input, 
 textarea {
     width: 100%;
@@ -20,6 +13,17 @@ textarea {
 textarea {
     height: 120px;
 }
+
+/* classes */
+
+.socialLogo > a > img {
+    width: 50px;
+    display: inline-block;
+    float: left;
+    margin: 0 10px 0 10px;
+}
+
+/* IDs */
 
 #submitButton {
     width: 80px;
