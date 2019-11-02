@@ -1,94 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Contact - Lewis Lockhart</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Lewis Lockhart - Contact</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" 
         href="assets/images/favicon/favicon-16x16.png">
-    <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/headerFooter.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/contact.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 </head>
 
 <body>
-    <main>
-        <header class="clearfix">
-            <div class="headerContent">
-                <div id="nameBlock">
-                    <a href="index.html">
-                        <h1>Lewis Lockhart</h1>
-                    </a>
-                </div>
-                <nav>
-                    <div id="about"><a href="index.html">About</a></div>
-                    <div id="portfolio"><a href="portfolio.html">Portfolio</a></div>
-                    <div id="contact"><a href="contact.html">Contact</a></div>
-                </nav>
-            </div>
-        </header>
 
-        <div class="content">
-            <section class="clearfix">
-                <div class="clearfix">
-                    <h1 class="pageTitle">Contact</h1>
-                </div>
-                <hr>
-                
-                <form action="mailto:contact-lewis@byemail.com" method="post" enctype="text/plain">
-                     <div>
-                        Name
-                        <br>
-                        <input type="text" placeholder=" John Doe">
-                    </div>
-                    <div>
-                        Email
-                        <br>
-                        <input type="email" placeholder=" your@email.com">
-                    </div>
-                    <div>
-                        Message
-                        <br>
-                        <textarea type="text"></textarea>
-                    </div>
-                    <div>
-                        <input type="submit" id="submitButton" value="Submit">
-                    </div>
-                </form>
-
-                <hr>
-                <div class="socialLogo">
-
-                    <div class="clearfix">
-                        <h1 class="pageTitle">Social Sites</h1>
-                    </div>
-                    
-                    <a href="https://www.linkedin.com/in/e-lewis-lockhart" target="_blank">
-                        <img src="assets/images/linkedin.png" alt="linkedin logo">
-                    </a>
-                    </div>
-                    <div class="socialLogo">
-                        <a href="https://github.com/lewis00001" target="_blank">
-                        <img src="assets/images/github.png" alt="github logo">
-                    </a>
-                    </div>
-                    <div class="socialLogo">
-                        <a href="https://stackoverflow.com/users/6054098/lewis-lockhart" target="_blank">
-                        <img src="assets/images/stackoverflow.png" alt="stackoverflow logo">
-                    </a>
-                </div>
-            </section>
+    <header id="header">
+        <div class="container">
+            <a href="index.html" id="logo">Lewis Lockhart</a>
+            <nav>
+                <a href="index.html">About</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html" class="active-link">Contact</a>
+            </nav>
         </div>
+    </header>
 
+    <div id="main-container" class="container">
+        <section class="main-section clearfix">
+            <h1>Contact</h1>
+            <hr>
+            <form action="mailto:contact-lewis@byemail.com" method="post" enctype="text/plain">
+                <div>
+                   Name
+                   <br>
+                   <input type="text" placeholder=" John Doe" required>
+               </div>
+               <div>
+                   Email
+                   <br>
+                   <input type="email" placeholder=" your@email.com" required>
+               </div>
+               <div>
+                   Message
+                   <br>
+                   <textarea type="text" required></textarea>
+               </div>
+               <div>
+                   <input type="submit" id="submitButton" value="Submit">
+               </div>
+           </form>
+        </section>
+    </div>
 
-
-        <footer>
+    <footer>
+        <div class="container">
             © 2019 | E. Lewis Lockhart | Springville, Utah
-        </footer>
-    </main>
-
+        </div>
+    </footer>
+    
 </body>
 
 </html>
